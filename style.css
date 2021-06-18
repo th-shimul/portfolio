@@ -1,0 +1,207 @@
+*,
+    	*::before
+    		*::after{
+    			box-sizing: border-box;
+
+    		}
+    		*:focus{
+    			outline: none;
+
+
+    		}
+
+
+    		body{
+    			padding: 0;
+    			margin: 0;
+    			background: #000;
+    			color: white;
+    			font-family:"Oxygen" ,sans-serif;
+    			overflow: hidden;
+
+
+
+    		}
+
+    		a{
+    			text-decoration: none;
+
+    		}
+    		img {
+    width: 90%;
+}
+    		.home img{
+    					width: 100%
+
+	-webkit-filter:grayscale(100%)contrast(100%);
+
+		filter: grayscale(100%)contrast(200%)brightness(60%);
+    		}
+
+.folio img{
+	filter: grayscale(100%);
+
+}
+
+aside{
+	position: fixed;
+	background: #222;
+	top: 0px;
+	left: 0px;
+	width: 120px;
+	height: 100px;
+	overflow: none;
+	z-index: 1;
+	text-align: center;
+	padding: 0px;
+}
+
+aside img{
+filter: grayscale(100%)contrast(50%)brightness(100%);
+margin-bottom: -3px;
+
+
+}
+
+.material-icons.md-36{
+	font-size: 36px;
+
+}
+
+	aside a{
+		display: block;
+		padding: 15px 0;
+		color: white;
+		transition: all 0.35s;
+	text-transform: uppercase;
+     font-size: 0.75em;
+     letter-spacing: 2px;
+
+	}
+
+
+
+
+aside p{
+	margin: 0;
+	padding: 0;
+
+}
+aside a:hover{
+
+	background: #000;
+
+}
+
+
+
+
+aside nav a :nth-child(2){
+	background: #000
+
+
+}
+
+aside nav a:nth-child(2):hover{
+	background: #b2b2b2;
+	color: #222
+
+
+
+}
+main{
+max-width: 980px;
+background: #000;
+margin-left:20%;
+padding:12px 50px 12px 50px;
+
+	}
+
+header{
+text-align: center;
+letter-spacing: 2px
+
+}
+
+header h1{
+
+font-weight: bold;
+font-size: 4em;
+letter-spacing: 4px;
+
+}
+header h5{
+	font-weight: 300;
+	font-size: 1em;
+	letter-spacing: 4px;
+	color: #b2b2b2;
+
+
+}
+
+.about,
+.folio,
+.contact{
+	line-height: 1.5em;
+	letter-spacing: 1px;
+	font-weight: 300;
+
+}
+.about h2,
+.folio h2,
+.contact h2{
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration:line-through;
+	padding-bottom: 10px;
+	margin: 100px 0 0 0;
+	letter-spacing: 4px;
+
+
+
+}
+
+.about p{ 
+color: #b2b2b2
+
+ }
+.about span{
+	font-weight: 600px
+	color:white
+
+}
+
+.about h3{
+	font-weight: 300;
+	margin: 50px 0;
+}
+.container{
+	width: 100%
+	background-color:#b2b2b2;
+
+}
+
+.skills{
+	text-align: right;
+	padding-right: 20px
+	line-height30px
+	color:white;
+	background-color: #424242;
+
+}
+
+.figma{
+	width: 95%;
+
+}
+
+.html{
+	width: 90%;
+}
+
+.css{
+	width: 85%
+}
+
+
+				</style>
